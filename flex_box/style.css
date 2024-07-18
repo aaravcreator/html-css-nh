@@ -1,0 +1,133 @@
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+.client-container{
+    /* background-color:gray; */
+    display:flex;
+    align-items: center;
+    /* width:500px; */
+    overflow-x:auto ;
+  }
+  .client{
+    
+    margin:10px;
+    min-width:500px;
+    /* background-color:green; */
+  }
+
+  .client-logo{
+    width:300px;
+  }
+  
+  .heading{
+    text-align: center;
+  }
+  
+  
+  
+  
+  .red-color{
+    color:red;
+  }
+  .special{
+    color:blue;
+  }
+  
+  .cta-btn{
+  
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    background-color:#3b82f6;
+    /*   1 rem is 16px or times root font size */
+    border-radius:10px;
+    padding-top:0.5rem; 
+    padding-bottom:0.5rem;
+    padding-left:1rem; 
+    padding-right:1rem;
+  /*   padding:20px; */
+  }
+  
+  .image-div{
+    border-radius:20px;
+    height:500px;
+  }
+  .hero-image{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+  }
+  
+  .parent{
+    padding:20px;
+    background-color:cyan;
+    display:flex;
+    justify-content:space-between;
+    align-items:start;
+    
+    height:500px;
+    
+  }
+  
+  .children{
+    overflow:hidden;
+  /*   padding:20px; */
+    width:50%;
+    margin:20px;
+  /*   height:200px; */
+    background-color:green;
+    color:white;
+    font-size:15px;
+  }
+  .hero-text{
+    background-color:transparent!important;
+    height:100%;
+  }
+
+
+  .mero-card
+  {
+    margin-right:10px;
+
+    /* background-color: ; */
+  
+    
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #e5e7eb;
+
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+
+  }
+
+  .info-card{
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+  }
+
+  .course-link{
+    text-decoration: none;
+    background-color:#4f46e5 ;
+    color:white;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* width: ; */
+    display: block;
+    border-radius: 10px;
+  }
+
+  .course-container{
+    display: flex;
+  }
